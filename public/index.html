@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bonfire</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css">
+    <script src="bootstrap/js/bootstrap.min.js" type="application/javascript"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js" type="application/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="site w-100">
+        <div class="header d-flex justify-content-center w-100 flex-column">
+            <div class="top_head d-flex justify-content-center">
+                <div class="topnav d-flex justify-content-between flex-row">
+                    <div class="logo d-flex flex-row">
+                        <img class="m-auto" id="logoimg" src="img/flame.png" alt="flame">
+                        <div class="text-white" id="thename">Bonfire</div>
+                        <div class="m-auto text-white" id="deviz">SO TURN THE LIGHTS OUT</div>
+                    </div>
+                    <div class="nav d-flex flex-row">
+                        <div class="m-auto text-white">WISH LIST (0)</div>
+                        <div class="m-auto text-white">MY ACCOUNT</div>
+                        <div class="m-auto text-white">SHOPPING CART</div>
+                        <div class="m-auto text-white">CHECKOUT</div>
+                        <div class="m-auto text-white">
+                            <div class="basket d-flex">
+                                <img class="m-auto" id="basketimg" src="img/basket.png" alt="cart">
+                                <div class="bubble text-center position-absolute text-white">0</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mid_head d-flex justify-content-center">
+                <div class="midnav d-flex">
+                    <div class="navp m-auto d-inline-block text-center">
+                        <img src="img/home.png" alt="home">
+                        Desktops
+                        <div class="navdd text-left">
+                            <br>
+                            <div>Sony(2)</div>
+                            <div>Android(4)</div>
+                            <div>Apple(7)</div>
+                            <div>Acer(53)</div>
+                            <div>HP(78)</div>
+                            <div>Intel(5)</div>
+                        </div>
+                    </div>
+                    <div class="navp m-auto d-inline-block text-center">Laptops & Notebooks
+                        <div class="navdd text-left">
+                            <br>
+                            <div>Sony(2)</div>
+                            <div>Android(4)</div>
+                            <div>Apple(7)</div>
+                            <div>Acer(53)</div>
+                            <div>HP(78)</div>
+                            <div>Intel(5)</div>
+                        </div>
+                    </div>
+                    <div class="navp m-auto d-inline-block text-center">Components
+                        <div class="navdd text-left">
+                            <br>
+                            <div>Sony(2)</div>
+                            <div>Android(4)</div>
+                            <div>Apple(7)</div>
+                            <div>Acer(53)</div>
+                            <div>HP(78)</div>
+                            <div>Intel(5)</div>
+                        </div>
+                    </div>
+                    <div class="navp m-auto d-inline-block text-center">Tablets
+                        <div class="navdd text-left">
+                            <br>
+                            <div>Sony(2)</div>
+                            <div>Android(4)</div>
+                            <div>Apple(7)</div>
+                            <div>Acer(53)</div>
+                            <div>HP(78)</div>
+                            <div>Intel(5)</div>
+                        </div>
+                    </div>
+                    <div class="navp m-auto d-inline-block text-center">Software
+                        <div class="navdd text-left">
+                            <br>
+                            <div>Sony(2)</div>
+                            <div>Android(4)</div>
+                            <div>Apple(7)</div>
+                            <div>Acer(53)</div>
+                            <div>HP(78)</div>
+                            <div>Intel(5)</div>
+                        </div>
+                    </div>
+                    <div class="navp m-auto d-inline-block text-center">Phones & PDAs
+                        <div class="navdd text-left">
+                            <br>
+                            <div>Sony(2)</div>
+                            <div>Android(4)</div>
+                            <div>Apple(7)</div>
+                            <div>Acer(53)</div>
+                            <div>HP(78)</div>
+                            <div>Intel(5)</div>
+                        </div>
+                    </div>
+                    <div class="navp m-auto d-inline-block text-center">Cameras
+                        <div class="navdd text-left">
+                            <br>
+                            <div>Sony(2)</div>
+                            <div>Android(4)</div>
+                            <div>Apple(7)</div>
+                            <div>Acer(53)</div>
+                            <div>HP(78)</div>
+                            <div>Intel(5)</div>
+                        </div>
+                    </div>
+                    <div class="navp m-auto d-inline-block text-center">Contact
+                        <div class="navdd text-left">
+                            <br>
+                            <div>Sony(2)</div>
+                            <div>Android(4)</div>
+                            <div>Apple(7)</div>
+                            <div>Acer(53)</div>
+                            <div>HP(78)</div>
+                            <div>Intel(5)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bot_head d-flex justify-content-center">
+                <div class="botnav d-flex flex-row justify-content-between">
+                    <div class="lside d-flex flex-row font-italic">Welcome visitor you can login or create an account.
+                    </div>
+                    <div class="rside d-flex flex-row">
+                        <img class="m-auto" src="img/anthena.png" alt="anthena">
+                        <img class="m-auto" src="img/facebook.png" alt="facebook">
+                        <img class="m-auto" src="img/twitter.png" alt="twitter">
+                        <img class="m-auto" src="img/skype.png" alt="skype">
+                        <select name="" id="sel">
+                            <option value="">Dollars</option>
+                        </select>
+                        <div class="d-flex bg-white">
+                            <input class="border-0" type="search" name="" id="ser" placeholder="Search">
+                            <img class="m-auto bg-white" src="img/search.png" alt="search" id="serimg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="middle d-flex justify-content-center w-100 flex-column align-items-center">
+            <div class="banner d-flex flex-column">
+                <img src="img/childish.png" alt="">
+                <div class="infobanner d-flex justify-content-between">
+                    <div class="dots d-flex flex-row">
+                        <div id="dot1"></div>
+                        <div id="dot2"></div>
+                        <div id="dot3"></div>
+                        <div id="dot4"></div>
+                        <div id="dot5"></div>
+                    </div>
+                    <div class="camp d-flex flex-row">
+                        <div class="gambino text-white">Childish Gambino - Camp Now Available for just $9.99</div>
+                        <div class="purchase text-white">PURCHASE</div>
+                    </div>
+                </div>
+            </div>
+            <div class="featured">
+                <div class="infoline d-flex flex-row">
+                    <div class="inf">FEATURED</div>
+                    <div class="line w-100 d-flex flex-column justify-content-around">
+                        <div></div>
+                        <div class="w-100"></div>
+                    </div>
+                </div>
+                <div class="plates d-flex flex-row justify-content-between">
+                    <div class="plate d-flex flex-column justify-content-between">
+                        <div class="imginf d-flex flex-column">
+                            <div class="boximg d-flex flex-column" style="background-image: url('img/f1.png')">
+                                <div class="twobtn">
+                                    <div>Add to Compare</div>
+                                    <div>Add to Whislist</div>
+                                </div>
+                            </div>
+                            <div class="infplate">Mascot Kitty - White</div>
+                        </div>
+                        <div class="btncost d-flex flex-row justify-content-between">
+                            <div class="addtocart text-white">ADD TO CART</div>
+                            <div class="cost d-flex flex-row">
+                                <img src="img/Shine.png" alt="">
+                                <div class="backs text-white text-center w-100">$</div>
+                                <div class="price text-center w-100">2</div>
+                                <div class="price text-center w-100">0</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plate d-flex flex-column justify-content-between">
+                        <div class="imginf d-flex flex-column">
+                            <div class="boximg d-flex flex-column" style="background-image: url('img/f2.png')">
+                                <div class="twobtn">
+                                    <div>Add to Compare</div>
+                                    <div>Add to Whislist</div>
+                                </div>
+                            </div>
+                            <div class="infplate">Bite Me</div>
+                        </div>
+                        <div class="btncost d-flex flex-row justify-content-between">
+                            <div class="addtocart text-white">ADD TO CART</div>
+                            <div class="cost d-flex flex-row">
+                                <img src="img/Shine.png" alt="">
+                                <div class="backs text-white text-center w-100">$</div>
+                                <div class="price text-center w-100">3</div>
+                                <div class="price text-center w-100">0</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plate d-flex flex-column justify-content-between">
+                        <div class="imginf d-flex flex-column">
+                            <div class="boximg d-flex flex-column" style="background-image: url('img/f3.png')">
+                                <div class="twobtn">
+                                    <div>Add to Compare</div>
+                                    <div>Add to Whislist</div>
+                                </div>
+                            </div>
+                            <div class="infplate">Little Fella</div>
+                        </div>
+                        <div class="btncost d-flex flex-row justify-content-between">
+                            <div class="addtocart text-white">ADD TO CART</div>
+                            <div class="cost d-flex flex-row">
+                                <img src="img/Shine.png" alt="">
+                                <div class="backs text-white text-center w-100">$</div>
+                                <div class="price text-center w-100">4</div>
+                                <div class="price text-center w-100">5</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plate d-flex flex-column justify-content-between">
+                        <div class="imginf d-flex flex-column">
+                            <div class="boximg d-flex flex-column" style="background-image: url('img/f4.png')">
+                                <div class="twobtn">
+                                    <div>Add to Compare</div>
+                                    <div>Add to Whislist</div>
+                                </div>
+                            </div>
+                            <div class="infplate">Astral Cruise</div>
+                        </div>
+                        <div class="btncost d-flex flex-row justify-content-between">
+                            <div class="addtocart text-white">ADD TO CART</div>
+                            <div class="cost d-flex flex-row">
+                                <img src="img/Shine.png" alt="">
+                                <div class="backs text-white text-center w-100">$</div>
+                                <div class="price text-center w-100">4</div>
+                                <div class="price text-center w-100">5</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="brands">
+                <div class="infoline d-flex flex-row">
+                    <div class="inf">FEATURED</div>
+                    <div class="line w-100 d-flex flex-column justify-content-around">
+                        <div></div>
+                        <div class="w-100"></div>
+                    </div>
+                </div>
+                <div class="bar d-flex flex-row justify-content-between">
+                    <div class="toleft">
+                        <img src="img/leftarrow.png" alt="">
+                    </div>
+                    <div class="icons d-flex flex-row">
+                        <div class="pic">
+                            <img src="img/apple.png" alt="">
+                        </div>
+                        <div class="pic">
+                            <img src="img/palm.png" alt="">
+                        </div>
+                        <div class="pic">
+                            <img src="img/adidas.png" alt="">
+                        </div>
+                        <div class="pic">
+                            <img src="img/boss.png" alt="">
+                        </div>
+                    </div>
+                    <div class="toright">
+                        <img src="img/rightarrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="latest">
+                <div class="infoline d-flex flex-row">
+                    <div class="inf">FEATURED</div>
+                    <div class="line w-100 d-flex flex-column justify-content-around">
+                        <div></div>
+                        <div class="w-100"></div>
+                    </div>
+                </div>
+                <div class="plates d-flex flex-row justify-content-between">
+                    <div class="plate d-flex flex-column justify-content-between">
+                        <div class="imginf d-flex flex-column">
+                            <div class="boximg d-flex flex-column" style="background-image: url('img/l1.png')">
+                                <div class="twobtn">
+                                    <div>Add to Compare</div>
+                                    <div>Add to Whislist</div>
+                                </div>
+                            </div>
+                            <div class="infplate">Symbolic Bag</div>
+                        </div>
+                        <div class="btncost d-flex flex-row justify-content-between">
+                            <div class="addtocart text-white">ADD TO CART</div>
+                            <div class="cost d-flex flex-row">
+                                <img src="img/Shine.png" alt="">
+                                <div class="backs text-white text-center w-100">$</div>
+                                <div class="price text-center w-100">2</div>
+                                <div class="price text-center w-100">0</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plate d-flex flex-column justify-content-between">
+                        <div class="imginf d-flex flex-column">
+                            <div class="boximg d-flex flex-column" style="background-image: url('img/l2.png')">
+                                <div class="twobtn">
+                                    <div>Add to Compare</div>
+                                    <div>Add to Whislist</div>
+                                </div>
+                            </div>
+                            <div class="infplate">Interesting Read</div>
+                        </div>
+                        <div class="btncost d-flex flex-row justify-content-between">
+                            <div class="addtocart text-white">ADD TO CART</div>
+                            <div class="cost d-flex flex-row">
+                                <img src="img/Shine.png" alt="">
+                                <div class="backs text-white text-center w-100">$</div>
+                                <div class="price text-center w-100">3</div>
+                                <div class="price text-center w-100">0</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plate d-flex flex-column justify-content-between">
+                        <div class="imginf d-flex flex-column">
+                            <div class="boximg d-flex flex-column" style="background-image: url('img/l3.png')">
+                                <div class="twobtn">
+                                    <div>Add to Compare</div>
+                                    <div>Add to Whislist</div>
+                                </div>
+                            </div>
+                            <div class="infplate">The Carter</div>
+                        </div>
+                        <div class="btncost d-flex flex-row justify-content-between">
+                            <div class="addtocart text-white">ADD TO CART</div>
+                            <div class="cost d-flex flex-row">
+                                <img src="img/Shine.png" alt="">
+                                <div class="backs text-white text-center w-100">$</div>
+                                <div class="price text-center w-100">4</div>
+                                <div class="price text-center w-100">5</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plate d-flex flex-column justify-content-between">
+                        <div class="imginf d-flex flex-column">
+                            <div class="boximg d-flex flex-column" style="background-image: url('img/l4.png')">
+                                <div class="twobtn">
+                                    <div>Add to Compare</div>
+                                    <div>Add to Whislist</div>
+                                </div>
+                            </div>
+                            <div class="infplate">Onesie</div>
+                        </div>
+                        <div class="btncost d-flex flex-row justify-content-between">
+                            <div class="addtocart text-white">ADD TO CART</div>
+                            <div class="cost d-flex flex-row">
+                                <img src="img/Shine.png" alt="">
+                                <div class="backs text-white text-center w-100">$</div>
+                                <div class="price text-center w-100">4</div>
+                                <div class="price text-center w-100">5</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination">
+                <div class="pages d-flex flex-row">
+                    <div class="pagebtn">&lt;</div>
+                    <div class="pagebtn" id="pagefirst">1</div>
+                    <div class="pagebtn">2</div>
+                    <div class="pagebtn">3</div>
+                    <div class="pagebtn">4</div>
+                    <div class="pagebtn">5</div>
+                    <div class="pagebtn">&gt;</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer d-flex justify-content-center w-100 flex-column">
+            <div class="seds d-flex justify-content-center w-100">
+                <div class="texts d-flex flex-row justify-content-between">
+                    <div class="cols d-flex flex-row">
+                        <img src="img/light.png" alt="">
+                        <div>
+                            <div class="theme d-flex flex-column">Suspendisse sed</div>
+                            <div class="words d-flex flex-column">Aliquam dignissim porttitor tortor non fermentum.
+                                Curabitur in magma
+                                lectus. Duis sed eros diam. Lorem ipsum dolor sit amet. consectetue.</div>
+                        </div>
+                    </div>
+                    <div class="cols d-flex flex-row">
+                        <img src="img/bolt.png" alt="">
+                        <div>
+                            <div class="theme d-flex flex-column">Suspendisse sed</div>
+                            <div class="words d-flex flex-column">Aliquam dignissim porttitor tortor non fermentum.
+                                Curabitur in magma
+                                lectus. Duis sed eros diam. Lorem ipsum dolor sit amet. consectetue.</div>
+                        </div>
+                    </div>
+                    <div class="cols d-flex flex-row">
+                        <img src="img/power.png" alt="">
+                        <div>
+                            <div class="theme d-flex flex-column">Suspendisse sed</div>
+                            <div class="words d-flex flex-column">Aliquam dignissim porttitor tortor non fermentum.
+                                Curabitur in magma
+                                lectus. Duis sed eros diam. Lorem ipsum dolor sit amet. consectetue.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="moreinfo w-100 d-flex justify-content-center">
+                <div class="texts d-flex flex-row justify-content-between">
+                    <div class="col2 d-flex flex-row">
+                        <div>
+                            <div class="theme2 text-white">ABOUT US</div>
+                            <div class="words2">Suspendisse sed accumsan risus. Curabitur rhoncus, elit vel tincidunt
+                                elementum, nunc urna tristique nisi, in interdum libero magma tristique ante. adipiscing
+                                varius. Vestibulum dolor lorem.</div>
+                        </div>
+                    </div>
+                    <div class="col2 d-flex flex-row">
+                        <div>
+                            <div class="theme2 text-white">INFORMATION</div>
+                            <div class="words2">About Us<br>Delivery Information<br>Privacy Policy<br>Terms & Conditions
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col2 d-flex flex-row">
+                        <div>
+                            <div class="theme2 text-white">CUSTOMER SERVICE</div>
+                            <div class="words2">Contact Us<br>Returns<br>Site Map</div>
+                        </div>
+                    </div>
+                    <div class="col2 d-flex flex-row">
+                        <div>
+                            <div class="theme2 text-white">MY ACCOUNT</div>
+                            <div class="words2">My Account<br>Order History<br>Wish List<br>Newsletter</div>
+                        </div>
+                    </div>
+                    <div class="col2 d-flex flex-row">
+                        <div>
+                            <div class="theme2 text-white">EXTRAS</div>
+                            <div class="words2">Brands<br>Gift Vouchers<br>Affiliates<br>Specials</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="last w-100 d-flex justify-content-center text-uppercase">
+                <div class="texts d-flex flex-row justify-content-between">
+                    <div class="sides">copyright of <span class="bil">bonfire</span> 2012 All Rights Reserved</div>
+                    <div class="sides">powered by <span class="bil">opencart</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

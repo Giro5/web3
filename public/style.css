@@ -1,0 +1,528 @@
+@font-face {
+    font-family: "Gevena";
+    src: url("font/Geneva.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ChelseaMarket_Regular";
+    src: url("font/ChelseaMarket_Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Telegrafico";
+    src: url("font/Telegrafico.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Terminal_Dosis-Book";
+    src: url("font/Terminal_Dosis-Book.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Terminal_Dosis-Light";
+    src: url("font/Terminal_Dosis-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Terminal_Dosis-SemiBold";
+    src: url("font/Terminal_Dosis-SemiBold.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    line-height: unset;
+}
+
+img {
+    user-select: none;
+}
+
+.header {
+    height: 210px;
+    background: #f9f9f9;
+    box-shadow: 0 5px 0 #f2f2f2;
+}
+
+.top_head {
+    background: linear-gradient(#f44c23, #fa5b31, #e93315);
+    height: 80px;
+}
+
+.topnav {
+    width: 940px;
+}
+
+#logoimg {
+    user-select: none;
+    cursor: pointer;
+}
+
+#thename {
+    font-size: 28pt;
+    font-family: ChelseaMarket_Regular;
+    padding: 13px 7px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.nav>div {
+    cursor: pointer;
+}
+
+.nav>div, #deviz {
+    font-size: 10pt;
+    font-family: Telegrafico;
+    padding: 0 7px;
+    user-select: none;
+}
+
+.nav>div:active {
+    color: gray;
+}
+
+.basket {
+    border: #ef401f solid 1px;
+    border-radius: 3px;
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(#fe8853, #fd5f37 5%, #e84621);
+    cursor: pointer;
+}
+
+.basket:active {
+    background: url("img/bgmetalbasket.png");
+}
+
+.bubble {
+    font-family: Telegrafico;
+    font-size: 10pt;
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    background: linear-gradient(#f88150, #f64e1e 10%, #fc2b01);
+    box-shadow: black 0 0 1px 0;
+    transform: translate(23px, -7px);
+    user-select: none;
+}
+
+.mid_head {
+    background: linear-gradient(#fbf2d3, #eee5c7);
+    height: 66px;
+    box-shadow: 0 4px 0 #efe7cd;
+}
+
+.midnav {
+    width: 940px;
+}
+
+.midnav>div {
+    padding: 0 16px;
+    font-family: Terminal_Dosis-Book;
+    font-size: 12pt;
+    color: #7d7253;
+    user-select: none;
+    cursor: pointer;
+    min-width: 76px;
+    z-index: 10;
+}
+
+.navdd {
+    display: none;
+}
+
+.navp:hover {
+    background: linear-gradient(#f0e4b8, #fbf2d3);
+    padding-top: 23px;
+    padding-bottom: 20px;
+}
+
+.navp:hover>.navdd {
+    display: inherit;
+}
+
+.navdd div {
+    color: #777777;
+    font-family: Terminal_Dosis-Book;
+    font-size: 11pt;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.navdd>div:hover {
+    background: #f54922;
+    color: white;
+}
+
+.bot_head {
+    height: 64px;
+}
+
+.botnav {
+    width: 940px;
+}
+
+.lside {
+    margin: auto 0;
+    font-family: Terminal_Dosis-Book;
+    font-size: 10pt;
+    color: #a7a49c;
+}
+
+.rside {
+    font-family: Terminal_Dosis-Book;
+    font-size: 10pt;
+    user-select: none;
+}
+
+.rside>img {
+    padding: 0 6px;
+    cursor: pointer;
+}
+
+#sel {
+    width: 134px;
+    height: 26px;
+    padding: 0 6px;
+    margin: auto 6px;
+    border-radius: 3px;
+    border: none;
+    border-top: #e0e0e0 1px solid;
+    border-left: #e0e0e0 1px solid;
+    font-family: Terminal_Dosis-Book;
+    font-size: 9pt;
+}
+
+.rside>div {
+    width: 184px;
+    height: 26px;
+    margin: auto 6px;
+    border-radius: 3px;
+    border: none;
+    border-top: #e0e0e0 1px solid;
+    border-left: #e0e0e0 1px solid;
+}
+
+#ser {
+    width: 184px;
+    height: 26px;
+    border-radius: 3px;
+    padding: 0 6px;
+    font-family: Terminal_Dosis-Book;
+    font-size: 9pt;
+}
+
+#serimg {
+    padding: 0 6px;
+    cursor: pointer;
+}
+
+.banner {
+    width: 940px;
+    margin-top: 26px;
+    user-select: none;
+    border-bottom: #91cdcb 6px solid;
+}
+
+.infobanner {
+    background: linear-gradient(90deg, #91d2d0, #9bd7d5);
+    height: 66px;
+}
+
+.dots {
+    margin: auto 27px;
+}
+
+.dots>div {
+    border: white 2px solid;
+    border-radius: 100%;
+    margin: 3px;
+    width: 5px;
+    height: 5px;
+    cursor: pointer;
+}
+
+.dots>div:hover {
+    background: white;
+}
+
+#dot2 {
+    background: white;
+}
+
+.camp {
+    margin-right: 25px;
+}
+
+.camp>div {
+    margin: auto 0;
+}
+
+.gambino {
+    padding: 0 10px;
+    font-family: Terminal_Dosis-Book;
+    font-size: 12pt;
+}
+
+.purchase {
+    padding: 12px 7px;
+    font-family: Telegrafico;
+    font-size: 10pt;
+    border-radius: 5px;
+    background: linear-gradient(#beecea, #9fdcda 5%, #8ac6c4);
+    border: #76c2bf 1px solid;
+    text-shadow: gray -1px -1px 1px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.purchase:active {
+    background: linear-gradient(#fe8853, #fd5f37 5%, #e84621);
+    border: #e66d4b 1px solid;
+}
+
+.featured, .latest, .brands, .pagination {
+    width: 940px;
+}
+
+.infoline {
+    margin-top: 49px;
+    margin-bottom: 41px;
+}
+
+.inf {
+    font-family: Telegrafico;
+    font-size: 14pt;
+    color: #7d7b7b;
+}
+
+.line {
+    margin-left: 2px;
+}
+
+.line>div {
+    height: 2px;
+    border-bottom: #edeae6 1px solid;
+    border-top: #edeae6 1px solid;
+}
+
+.plate {
+    width: 206px;
+    height: 260px;
+    border: #bcbcbc 1px solid;
+    border-radius: 3px;
+    padding: 7px;
+    background: linear-gradient(#f2f2f2, #ebebeb 1%, #d5d5d5);
+}
+
+.boximg {
+    width: 206px;
+    height: 178px;
+    justify-content: space-evenly;
+}
+
+.boximg:hover {
+    box-shadow: inset 0 0 0 100px #00000098;
+}
+
+.twobtn {
+    display: none;
+}
+
+.boximg:hover>.twobtn {
+    display: flex;
+    flex-direction: column;
+}
+
+.twobtn>div {
+    width: 133px;
+    font-family: Terminal_Dosis-Book;
+    font-size: 12pt;
+    background: linear-gradient(#eaeaea, #cfcfcf);
+    color: #494949;
+    border-radius: 2px;
+    border: #5e5f60 1px solid;
+    text-align: center;
+    padding: 4px 0;
+    margin: 9px auto;
+    cursor: pointer;
+}
+
+.infplate {
+    font-family: Terminal_Dosis-Book;
+    font-size: 13pt;
+    color: #5c5c5c;
+    margin-top: 9px;
+}
+
+.btncost {
+    user-select: none;
+}
+
+.addtocart {
+    padding: 7px 12px;
+    font-family: Terminal_Dosis-Book;
+    font-size: 10pt;
+    border-radius: 5px;
+    background: linear-gradient(#fe8853, #fd5f37 5%, #e84621);
+    border: #c35d40 1px solid;
+    text-shadow: #5c5c5c 1px 1px 1px;
+    cursor: pointer;
+}
+
+.addtocart:active {
+    background: linear-gradient(#c5c5c5, #888888 5%, #a9a9a9);
+    border: #838383 1px solid;
+}
+
+.cost {
+    border-bottom: #eaeaea 1px solid;
+    background: #727272;
+    width: 58px;
+    height: 28px;
+}
+
+.backs {
+    font-family: Terminal_Dosis-SemiBold;
+    font-size: 14pt;
+    background: #444444;
+    margin: 1px;
+}
+
+.price {
+    font-family: Terminal_Dosis-SemiBold;
+    font-size: 14pt;
+    color: #767676;
+    background: #cfcfcf;
+    margin: 1px;
+}
+
+.cost>img {
+    position: absolute;
+    transform: translate(0, -2px);
+}
+
+.bar>div>img {
+    padding: 25px 0;
+}
+
+.bar img {
+    cursor: pointer;
+}
+
+.icons {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.pages {
+    margin-top: 41px;
+    margin-bottom: 195px;
+}
+
+.pagebtn {
+    font-family: Terminal_Dosis-Book;
+    font-size: 10pt;
+    padding: 8px 16px;
+    border: #dbdbdb 1px solid;
+    border-radius: 4px;
+    margin-right: 8px;
+    background: linear-gradient(#e6e6e6, #d9d9d9 5%, #cecece);
+    color: black;
+    cursor: pointer;
+    user-select: none;
+}
+
+.pagebtn:hover {
+    background: linear-gradient(#fe7f4c, #fd5f37 5%, #e84621);
+    border: #d86645 1px solid;
+    color: white;
+}
+
+#pagefirst {
+    background: linear-gradient(#fe7f4c, #fd5f37 5%, #e84621);
+    border: #d86645 1px solid;
+    color: white;
+}
+
+.seds {
+    background: url("img/Texture.png");
+    height: 143px;
+}
+
+.texts {
+    width: 940px;
+    padding: 23px 0;
+}
+
+.cols {
+    max-width: 285px;
+    min-width: 139px;
+}
+
+.cols>img {
+    margin: 0 10px auto 0;
+}
+
+.theme {
+    font-family: Telegrafico;
+    font-size: 13pt;
+    color: #747272;
+    line-height: 23px;
+}
+
+.words {
+    color: #7d7253;
+    font-size: 10pt;
+    font-family: Terminal_Dosis-Book;
+    text-align: justify;
+    line-height: 23px;
+}
+
+.moreinfo {
+    background: url("img/footerbg2.png");
+    height: 243px;
+    border-bottom: #5c5c5c 5px solid;
+}
+
+.col2 {
+    max-width: 198px;
+    min-width: 139px;
+}
+
+.theme2 {
+    font-family: Telegrafico;
+    font-size: 13pt;
+    line-height: 23px;
+}
+
+.words2 {
+    color: #c9c9c9;
+    font-size: 10pt;
+    font-family: Terminal_Dosis-Book;
+    line-height: 23px;
+}
+
+.last {
+    background: linear-gradient(#494949, #4f4f4f);
+    height: 71px;
+}
+
+.sides {
+    padding: 5px 0;
+    font-family: "Telegrafico";
+    font-size: 10pt;
+    color: #848484;
+}
+
+.bil {
+    color: #9a9a9a;
+}
